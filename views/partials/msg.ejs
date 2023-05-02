@@ -1,0 +1,27 @@
+
+
+
+<% if (sucesso_msg != "" ) { %>
+
+    <div class="alert alert-success" role="alert">
+        <p class="text-success"><%= sucesso_msg %></p>
+      </div>
+     <% } %>
+
+  <% if (erro_msg!= "" ) { %>
+    <div class="alert alert-danger" role="alert">
+      <p class="text-danger"> <%= erro_msg %></p>       
+      </div>
+    
+  <% } %>
+<!-- 
+  <% if (erro_msg != "") { %>
+    <div class="alert alert-danger" role="alert">
+      <%= erro_msg %>
+    </div>
+  <% } else { %>
+    <div class="alert alert-success" role="alert">
+      Nenhum erro encontrado.
+    </div>
+  <% } %>
+   -->

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ConstruERP</title>
+	<link rel="shortcut icon" href="../../public/img/png/icon.png" type="image/x-icon"
+		class="img-fluid rounded-circle">		
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/313/313066.png?w=826&t=st=1682176031~exp=1682176631~hmac=d7f5af49186523205148472ec71b2b3deafabb339ec74ce56d840e7cd79625cc" type="image/x-icon">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Aelertas Sweet alert2 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css">
+
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+
+		.menu {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 200px;
+			height: 100%;
+			background-color: #3d4b65;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.menu ul li {
+			margin-bottom: 10px;
+		}
+
+		.menu ul li a {
+			display: flex;
+			align-items: center;
+			padding: 10px;
+			color: #fff;
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+			border-radius: 5px;
+			font-size: 18px;
+		}
+
+		.menu ul li a:hover {
+			background-color: #fff;
+			color: #4d4d4d;
+		}
+
+		.menu ul li a i {
+			margin-right: 10px;
+		}
+
+		.content {
+			margin-left: 200px;
+			padding: 20px;
+		}
+
+		h1 {
+			font-size: 36px;
+			color: #4d4d4d;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="content">
+		<div class="menu">
+			<ul>
+				<li id="home"><a href="/"><i class="fas fa-home"></i> Home</a></li>
+				<li id="produtos"><a href="/produto/produtos"><i class="fas fa-shopping-cart"></i> Produtos</a></li>
+				<li id="clientes"><a href="/cliente/clientes"><i class="fas fa-users"></i> Clientes</a></li>
+				<li id="pedidos"><a href="/pedido/pedidos"><i class="fas fa-clipboard-list"></i> Pedidos</a></li>
+				<li id="vendas"><a href="/vendas"><i class="fas fa-money-bill-wave"></i> Vendas</a></li>
+				<li id="contato"><a href="#"><i class="fas fa-envelope"></i> Contato</a></li>
+				<li id="sobre"><a href="/teste"><i class="fas fa-info-circle"></i> Sobre nós</a></li>
+				<li id="faq"><a href="#"><i class="fas fa-question-circle"></i> FAQ</a></li>
+				<li><a href="/user/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+				
+				<!-- <p><a href="#" class="text-primary"> user.email </a></p> -->
+				
+
+			</ul>
+		</div>
